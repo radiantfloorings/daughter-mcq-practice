@@ -117,11 +117,32 @@ reviewHTML += `
 else{
 
 reviewHTML += `
+<div style="border:1px solid #ccc; padding:15px; margin:15px 0;">
+
+<h3>❌ Question ${index+1}</h3>
+
+<p><b>${q.question}</b></p>
+
 <p>
-❌ Question ${index+1}: Wrong<br>
-Correct Answer: ${q.options[q.answer]}<br>
-Explanation: ${q.explanation}
+Your Answer:
+<span style="color:red;">
+${answers[index] !== undefined ? q.options[answers[index]] : "Not Attempted"}
+</span>
 </p>
+
+<p>
+Correct Answer:
+<span style="color:green;">
+${q.options[q.answer]}
+</span>
+</p>
+
+<p>
+<b>Explanation:</b><br>
+${q.explanation}
+</p>
+
+</div>
 `;
 
 }
