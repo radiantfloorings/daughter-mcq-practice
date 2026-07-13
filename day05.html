@@ -39,15 +39,16 @@
 
 
 let current = 0;
-
 let answers = [];
+let wrongQuestions = [];
+let quizQuestions = day05_questions;
 
 
 
 function loadQuestion(){
 
 
-let q = day05_questions[current];
+let q = quizQuestions[current];
 
 
 let html =
@@ -110,7 +111,7 @@ current++;
 
 
 
-if(current < day05_questions.length){
+if(current < quizQuestions.length){
 
 loadQuestion();
 
@@ -119,6 +120,31 @@ loadQuestion();
 else{
 
 finishTest();
+  function retryWrongQuestions(){
+
+if(wrongQuestions.length==0){
+
+alert("Excellent! No wrong questions.");
+
+return;
+
+}
+
+quizQuestions = wrongQuestions;
+
+current = 0;
+
+answers = [];
+
+wrongQuestions = [];
+
+document.getElementById("score").innerHTML="";
+
+document.getElementById("review").innerHTML="";
+
+loadQuestion();
+
+}
 
 }
 
@@ -132,95 +158,84 @@ finishTest();
 
 function finishTest(){
 
-
 let score = 0;
 
+let reviewHTML = "<h2>Answer Review</h2>";
 
-let reviewHTML="<h2>Answer Review</h2>";
+quizQuestions.forEach((q,index)=>{
 
+    if(answers[index] == q.answer){
 
+        score++;
 
-day05_questions.forEach((q,index)=>{
+        reviewHTML += `
+        <p>✅ Question ${index+1}: Correct</p>
+        `;
 
+    }
 
-if(answers[index] == q.answer){
+    else{
 
+        wrongQuestions.push(q);
 
-score++;
+        reviewHTML += `
 
+        <div style="border:1px solid #ccc;padding:15px;margin:15px 0;">
 
-reviewHTML +=
+        <h3>❌ Question ${index+1}</h3>
 
-`
+        <p><b>${q.question}</b></p>
 
-<p>
-✅ Question ${index+1}: Correct
-</p>
+        <p>
+        <b>Your Answer:</b>
+        <span style="color:red;">
+        ${answers[index] !== undefined ? q.options[answers[index]] : "Not Attempted"}
+        </span>
+        </p>
 
-`;
+        <p>
+        <b>Correct Answer:</b>
+        <span style="color:green;">
+        ${q.options[q.answer]}
+        </span>
+        </p>
 
+        <p>
+        <b>Explanation:</b><br>
+        ${q.explanation}
+        </p>
 
-}
+        </div>
 
-else{
-
-
-reviewHTML +=
-
-`
-
-<p>
-
-❌ Question ${index+1}: Wrong
-
-<br>
-
-Your Answer:
-${q.options[answers[index]] || "Not Attempted"}
-
-<br>
-
-Correct Answer:
-${q.options[q.answer]}
-
-<br>
-
-Explanation:
-${q.explanation}
-
-</p>
-
-
-`;
-
-
-}
-
-
+        `;
+    }
 
 });
 
-
-
-
 document.getElementById("quiz").innerHTML="Test Completed";
 
+document.getElementById("score").innerHTML =
+"Your Score: "+score+"/"+quizQuestions.length;
 
+document.getElementById("review").innerHTML = reviewHTML;
 
-document.getElementById("score").innerHTML=
+if(wrongQuestions.length>0){
 
-"Your Score: "+score+"/"+day05_questions.length;
+document.getElementById("review").innerHTML += `
 
+<br><br>
 
+<button onclick="retryWrongQuestions()">
 
-document.getElementById("review").innerHTML=
+Practice Wrong Questions Again
 
-reviewHTML;
+</button>
 
-
+`;
 
 }
 
+}
 
 
 loadQuestion();
