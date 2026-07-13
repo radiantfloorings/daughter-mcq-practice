@@ -26,11 +26,13 @@
 
 let current = 0;
 let answers = [];
+let wrongQuestions = [];
+let quizQuestions = questions;
 
 
 function loadQuestion(){
 
-let q = questions[current];
+let q = quizQuestions[current];
 
 let html =
 "<h2>"+(current+1)+". "+q.question+"</h2>";
@@ -99,7 +101,7 @@ let score = 0;
 let reviewHTML="<h2>Answer Review</h2>";
 
 
-questions.forEach((q,index)=>{
+quizQuestions.forEach((q,index)=>{
 
 
 if(answers[index] == q.answer){
@@ -115,6 +117,7 @@ reviewHTML += `
 }
 
 else{
+  wrongQuestions.push(q);
 
 reviewHTML += `
 <div style="border:1px solid #ccc; padding:15px; margin:15px 0;">
@@ -159,12 +162,53 @@ document.getElementById("score").innerHTML =
 
 document.getElementById("review").innerHTML =
 reviewHTML;
+  if(wrongQuestions.length > 0){
+
+document.getElementById("review").innerHTML += `
+
+<br>
+
+<button onclick="retryWrongQuestions()">
+Practice Wrong Questions Again
+</button>
+
+`;
+
+}
 
 
 }
 
 
+function retryWrongQuestions(){
+
+if(wrongQuestions.length == 0){
+
+alert("No wrong questions. Excellent!");
+
+return;
+
+}
+
+
+quizQuestions = wrongQuestions;
+
+current = 0;
+
+answers = [];
+
+wrongQuestions = [];
+
+
+document.getElementById("score").innerHTML="";
+
+document.getElementById("review").innerHTML="";
+
+
 loadQuestion();
+
+}
+  loadQuestion();
 
 
 </script>
