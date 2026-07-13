@@ -1,5 +1,7 @@
+const questions = [
+
 {
-question:"Consider the following statements regarding the President's Police Medal for Gallantry: \n1. It is among the highest police awards in India. \n2. It is awarded for exceptional bravery while performing duty. \n3. It is awarded only after retirement. \nWhich of the statements given above is/are correct?",
+question:"Consider the following statements regarding the President's Police Medal for Gallantry:\n1. It is among the highest police awards in India.\n2. It is awarded for exceptional bravery while performing duty.\n3. It is awarded only after retirement.\nWhich of the statements given above is/are correct?",
 options:[
 "1 and 2 only",
 "2 and 3 only",
@@ -7,7 +9,7 @@ options:[
 "1, 2 and 3"
 ],
 answer:0,
-explanation:"The President's Police Medal for Gallantry is one of India's highest police awards and recognizes exceptional bravery while on duty. It is not related to retirement."
+explanation:"The President's Police Medal for Gallantry is one of India's highest police awards and recognizes exceptional bravery while performing duty. It is not related to retirement."
 },
 
 {
@@ -19,11 +21,11 @@ options:[
 "George Cross"
 ],
 answer:1,
-explanation:"The President's Police Medal for Distinguished Service recognizes officers for outstanding long-term service, leadership and dedication."
+explanation:"The President's Police Medal for Distinguished Service recognizes officers for outstanding long service, leadership, dedication and discipline."
 },
 
 {
-question:"Arrange the following wartime gallantry awards in the correct order of precedence (highest to lowest): \n1. Vir Chakra \n2. Maha Vir Chakra \n3. Param Vir Chakra",
+question:"Arrange the following wartime gallantry awards in the correct order of precedence from highest to lowest:\n1. Vir Chakra\n2. Maha Vir Chakra\n3. Param Vir Chakra",
 options:[
 "3-2-1",
 "2-3-1",
@@ -31,7 +33,7 @@ options:[
 "1-2-3"
 ],
 answer:0,
-explanation:"The order is Param Vir Chakra, Maha Vir Chakra and Vir Chakra."
+explanation:"The correct order is Param Vir Chakra, Maha Vir Chakra and Vir Chakra."
 },
 
 {
@@ -43,7 +45,7 @@ options:[
 "Both are civilian awards."
 ],
 answer:1,
-explanation:"Param Vir Chakra is India's highest wartime gallantry award, whereas Ashok Chakra is the highest peacetime gallantry award."
+explanation:"Param Vir Chakra is India's highest wartime gallantry award, whereas Ashok Chakra is India's highest peacetime gallantry award."
 },
 
 {
@@ -55,7 +57,7 @@ options:[
 "None"
 ],
 answer:1,
-explanation:"George Cross belongs to the UK and Medal of Honor belongs to the USA. Victoria Cross is also a UK award, not French."
+explanation:"George Cross belongs to the United Kingdom and Medal of Honor belongs to the United States. Victoria Cross is also a United Kingdom award, not a French award. Therefore only two pairs are correct."
 },
 
 {
@@ -67,7 +69,7 @@ options:[
 "Russia"
 ],
 answer:1,
-explanation:"The Legion of Honour is France's highest award and was established by Napoleon Bonaparte."
+explanation:"The Legion of Honour is France's highest national award and was established by Napoleon Bonaparte."
 },
 
 {
@@ -79,7 +81,7 @@ options:[
 "Right Livelihood Award — Sports"
 ],
 answer:2,
-explanation:"The Ramon Magsaysay Award recognizes public service, leadership and social contribution. Fields Medal is for Mathematics, Turing Award for Computer Science and Right Livelihood Award for peace, justice and sustainability."
+explanation:"The Ramon Magsaysay Award recognizes public service, leadership and social contribution. Fields Medal is related to Mathematics, Turing Award to Computer Science and Right Livelihood Award to peace, justice and sustainability."
 },
 
 {
@@ -91,7 +93,7 @@ options:[
 "1, 2 and 3"
 ],
 answer:3,
-explanation:"According to your notes, the Jnanpith Award is India's highest literary award, recognizes excellence in Indian languages and carries a prize of ₹21 lakh."
+explanation:"According to the provided notes, Jnanpith Award is India's highest literary award, recognizes excellence in Indian languages and carries a prize of ₹21 lakh."
 },
 
 {
@@ -103,7 +105,7 @@ options:[
 "Sahitya Akademi Award"
 ],
 answer:1,
-explanation:"The Vyas Samman is awarded for outstanding literary works written in Hindi."
+explanation:"The Vyas Samman is given for outstanding literary works written in Hindi."
 },
 
 {
@@ -115,5 +117,7 @@ options:[
 "It is restricted to European writers."
 ],
 answer:2,
-explanation:"The Nobel Prize in Literature is awarded by the Swedish Academy for exceptional literary contribution and is open to writers worldwide."
+explanation:"The Nobel Prize in Literature is awarded by the Swedish Academy for exceptional literary contribution and is an internationally respected literary award."
 }
+
+];
