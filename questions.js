@@ -405,5 +405,304 @@ options:[
 ],
 answer:0,
 explanation:"Gallantry awards are given to recognize bravery, courage and sacrifice."
+},
+  {
+question:"Consider the following statements regarding the National Award for Teachers:\n1. It recognizes outstanding contributions by teachers.\n2. It promotes quality education and dedication towards teaching.\n3. It is awarded only to university professors.\nWhich of the statements given above are correct?",
+options:[
+"1 and 2 only",
+"2 and 3 only",
+"1 and 3 only",
+"1, 2 and 3"
+],
+answer:0,
+explanation:"The National Award for Teachers recognizes outstanding teachers and their contribution to education. It is not limited only to university professors."
+},
+
+{
+question:"Which of the following is NOT a purpose of Best Teacher Awards?",
+options:[
+"Encouraging innovative teaching methods",
+"Recognizing student guidance",
+"Promoting quality education",
+"Rewarding military achievements"
+],
+answer:3,
+explanation:"Best Teacher Awards are related to education, teaching excellence and student development, not military achievements."
+},
+
+{
+question:"Shiksha Ratan Puraskar is associated with:",
+options:[
+"Scientific discoveries",
+"Contribution to education",
+"Sports excellence",
+"Environmental protection"
+],
+answer:1,
+explanation:"Shiksha Ratan Puraskar recognizes individuals who contribute significantly to education and learning."
+},
+
+{
+question:"National ICT Award for Teachers mainly encourages:",
+options:[
+"Use of technology in education",
+"Traditional farming methods",
+"Military training",
+"Literary writing"
+],
+answer:0,
+explanation:"National ICT Award for Teachers promotes digital learning, smart classrooms and use of technology in teaching."
+},
+
+{
+question:"The Global Teacher Prize is often compared with which famous award?",
+options:[
+"Nobel Prize for Teaching",
+"Oscar Award for Teachers",
+"Booker Prize for Education",
+"Fields Medal for Teachers"
+],
+answer:0,
+explanation:"The Global Teacher Prize is popularly called the 'Nobel Prize for Teaching' because it recognizes exceptional teachers worldwide."
+},
+
+{
+question:"UNESCO Prize for Girls' and Women's Education focuses on:",
+options:[
+"Promoting equal educational opportunities",
+"Military education",
+"Sports training",
+"Business education"
+],
+answer:0,
+explanation:"This UNESCO award recognizes efforts to promote girls' and women's education and equal learning opportunities."
+},
+
+{
+question:"Yidan Prize is associated with excellence in:",
+options:[
+"Education research and innovation",
+"Cinema",
+"Astronomy",
+"Sports"
+],
+answer:0,
+explanation:"Yidan Prize recognizes educational research, innovative teaching ideas and improvement of global education systems."
+},
+
+{
+question:"The Fields Medal is related to which field?",
+options:[
+"Physics",
+"Mathematics",
+"Computer Science",
+"Medicine"
+],
+answer:1,
+explanation:"Fields Medal is the highest honor in mathematics and is often called the Nobel Prize of Mathematics."
+},
+
+{
+question:"The Turing Award is considered the highest honour in:",
+options:[
+"Literature",
+"Computer Science",
+"Environmental Science",
+"Economics"
+],
+answer:1,
+explanation:"The Turing Award is the highest award in computer science and is named after Alan Turing."
+},
+
+{
+question:"Consider the following pairs:\n1. Fields Medal — Mathematics\n2. Turing Award — Computer Science\n3. Ramon Magsaysay Award — Public Service\nWhich of the above pairs are correctly matched?",
+options:[
+"Only one",
+"Only two",
+"All three",
+"None"
+],
+answer:2,
+explanation:"All three pairs are correctly matched."
+},
+
+{
+question:"Ramon Magsaysay Award is often called:",
+options:[
+"Asia's Nobel Prize",
+"Asian Oscar Award",
+"Green Nobel Prize",
+"Nobel Prize of Computing"
+],
+answer:0,
+explanation:"Ramon Magsaysay Award is popularly called Asia's Nobel Prize because it recognizes outstanding public service and leadership."
+},
+
+{
+question:"Right Livelihood Award is mainly associated with:",
+options:[
+"Peace, justice and sustainability",
+"Football achievements",
+"Computer programming",
+"Military bravery"
+],
+answer:0,
+explanation:"Right Livelihood Award honors contributions towards human rights, environmental protection, peace and social justice."
+},
+
+{
+question:"Consider the following statements regarding Bharat Ratna:\n1. It is India's highest civilian award.\n2. It recognizes exceptional service to the nation.\n3. It is awarded only for sports achievements.\nWhich are correct?",
+options:[
+"1 and 2 only",
+"2 and 3 only",
+"1 and 3 only",
+"1, 2 and 3"
+],
+answer:0,
+explanation:"Bharat Ratna is India's highest civilian award and is given for exceptional service in fields including arts, science, public service and sports."
+},
+
+{
+question:"The Shanti Swarup Bhatnagar Prize is associated with:",
+options:[
+"Scientific research",
+"Literature",
+"Cinema",
+"Sports"
+],
+answer:0,
+explanation:"Shanti Swarup Bhatnagar Prize recognizes outstanding scientific research in various fields."
+},
+
+{
+question:"Which organization gives CSIR Awards?",
+options:[
+"Council of Scientific and Industrial Research",
+"Election Commission of India",
+"UNESCO",
+"Sports Authority of India"
+],
+answer:0,
+explanation:"CSIR Awards are given by the Council of Scientific and Industrial Research for scientific innovation and research achievements."
+},
+
+{
+question:"Consider the following pairs regarding Nobel Prizes:\n1. Nobel Peace Prize — Peace\n2. Nobel Prize in Physics — Science\n3. Nobel Prize in Medicine — Medical Science\nWhich are correctly matched?",
+options:[
+"Only one",
+"Only two",
+"All three",
+"None"
+],
+answer:2,
+explanation:"All three pairs are correctly matched."
+},
+
+{
+question:"Which of the following is India's highest civilian honour?",
+options:[
+"Padma Shri",
+"Bharat Ratna",
+"Padma Bhushan",
+"Padma Vibhushan"
+],
+answer:1,
+explanation:"Bharat Ratna is India's highest civilian award."
+},
+
+{
+question:"Arrange the Padma Awards in descending order of importance:",
+options:[
+"Padma Vibhushan - Padma Bhushan - Padma Shri",
+"Padma Shri - Padma Bhushan - Padma Vibhushan",
+"Padma Bhushan - Padma Shri - Padma Vibhushan",
+"Padma Vibhushan - Padma Shri - Padma Bhushan"
+],
+answer:0,
+explanation:"The order is Padma Vibhushan (second highest civilian award), Padma Bhushan (third), and Padma Shri (fourth)."
+},
+
+{
+question:"Padma Awards are given for contributions in which of the following fields?\n1. Arts\n2. Science\n3. Public service\n4. Social work",
+options:[
+"Only 1 and 2",
+"Only 1, 2 and 3",
+"Only 1, 2, 3 and 4",
+"Only 3 and 4"
+],
+answer:2,
+explanation:"Padma Awards recognize exceptional contributions in arts, literature, science, public service, social work and other fields."
+},
+
+{
+question:"Sangeet Natak Akademi Award is related to:",
+options:[
+"Performing arts",
+"Environmental protection",
+"Scientific research",
+"Sports coaching"
+],
+answer:0,
+explanation:"Sangeet Natak Akademi Award honors excellence in music, dance and theatre."
+},
+
+{
+question:"Kalidas Samman is associated with:",
+options:[
+"Indian arts and culture",
+"Computer science",
+"Business innovation",
+"Sports"
+],
+answer:0,
+explanation:"Kalidas Samman recognizes excellence in classical music, dance, theatre and visual arts."
+},
+
+{
+question:"Lalit Kala Akademi Award is related to:",
+options:[
+"Visual arts",
+"Literature",
+"Medicine",
+"Athletics"
+],
+answer:0,
+explanation:"Lalit Kala Akademi Award promotes visual arts such as painting, sculpture and drawing."
+},
+
+{
+question:"Major Dhyan Chand Khel Ratna Award is:",
+options:[
+"India's highest sports award",
+"India's highest literary award",
+"India's highest science award",
+"India's highest civilian award"
+],
+answer:0,
+explanation:"Major Dhyan Chand Khel Ratna Award is India's highest sports award."
+},
+
+{
+question:"Arjuna Award is given mainly for:",
+options:[
+"Consistent good performance in sports",
+"Coaching excellence only",
+"Lifetime achievement after retirement only",
+"University sports performance"
+],
+answer:0,
+explanation:"Arjuna Award recognizes sportspersons for consistent excellent performance at national and international levels."
+},
+
+{
+question:"Dronacharya Award is associated with:",
+options:[
+"Sports coaches",
+"Scientists",
+"Teachers",
+"Artists"
+],
+answer:0,
+explanation:"Dronacharya Award recognizes excellence in coaching and contribution towards training successful sportspersons."
 }
   ];
