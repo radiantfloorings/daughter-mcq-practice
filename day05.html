@@ -120,29 +120,34 @@ loadQuestion();
 else{
 
 finishTest();
-  function retryWrongQuestions(){
+  function nextQuestion(){
 
-if(wrongQuestions.length==0){
+let selected =
+document.querySelector('input[name="answer"]:checked');
 
-alert("Excellent! No wrong questions.");
+if(!selected){
+
+alert("Please select an answer");
 
 return;
 
 }
 
-quizQuestions = wrongQuestions;
+answers[current] = Number(selected.value);
 
-current = 0;
+current++;
 
-answers = [];
-
-wrongQuestions = [];
-
-document.getElementById("score").innerHTML="";
-
-document.getElementById("review").innerHTML="";
+if(current < quizQuestions.length){
 
 loadQuestion();
+
+}
+
+else{
+
+finishTest();
+
+}
 
 }
 
