@@ -704,5 +704,568 @@ options:[
 ],
 answer:0,
 explanation:"Dronacharya Award recognizes excellence in coaching and contribution towards training successful sportspersons."
+},
+  {
+question:"The Laureus World Sports Awards are primarily given to recognize excellence in:",
+options:[
+"Sports achievements",
+"Environmental conservation",
+"Literary works",
+"Scientific discoveries"
+],
+answer:0,
+explanation:"Laureus World Sports Awards honor outstanding achievements by athletes and teams across different sports."
+},
+
+{
+question:"The Laureus World Sportsman of the Year Award is associated with:",
+options:[
+"Football only",
+"Individual sporting excellence",
+"Cricket only",
+"Olympic administration"
+],
+answer:1,
+explanation:"The award recognizes outstanding individual male athletes for their sporting achievements."
+},
+
+{
+question:"The Ballon d'Or award is presented in the field of:",
+options:[
+"Tennis",
+"Football",
+"Cricket",
+"Athletics"
+],
+answer:1,
+explanation:"Ballon d'Or is one of the most prestigious awards in football, given annually to outstanding players."
+},
+
+{
+question:"The Ballon d'Or award is traditionally organized by:",
+options:[
+"FIFA",
+"France Football",
+"IOC",
+"UEFA"
+],
+answer:1,
+explanation:"The Ballon d'Or was created and is organized by France Football magazine."
+},
+
+{
+question:"The FIFA Best Awards recognize excellence in:",
+options:[
+"Football",
+"Formula One racing",
+"Swimming",
+"Chess"
+],
+answer:0,
+explanation:"The FIFA Best Awards honor outstanding football players, coaches and achievements."
+},
+
+{
+question:"The ICC Awards are related to which sport?",
+options:[
+"Hockey",
+"Cricket",
+"Football",
+"Badminton"
+],
+answer:1,
+explanation:"ICC Awards are presented by the International Cricket Council for cricket achievements."
+},
+
+{
+question:"The International Olympic Committee (IOC) awards medals mainly for:",
+options:[
+"Olympic sporting achievements",
+"Film excellence",
+"Scientific research",
+"Environmental protection"
+],
+answer:0,
+explanation:"IOC medals recognize athletes achieving success at Olympic Games."
+},
+
+{
+question:"The Wimbledon Championship is associated with:",
+options:[
+"Football",
+"Tennis",
+"Golf",
+"Boxing"
+],
+answer:1,
+explanation:"Wimbledon is one of the four Grand Slam tennis tournaments."
+},
+
+{
+question:"The Davis Cup is related to:",
+options:[
+"Tennis",
+"Cricket",
+"Hockey",
+"Basketball"
+],
+answer:0,
+explanation:"Davis Cup is an international men's team tennis competition."
+},
+
+{
+question:"The Thomas Cup is associated with:",
+options:[
+"Badminton",
+"Football",
+"Chess",
+"Table Tennis"
+],
+answer:0,
+explanation:"Thomas Cup is the world championship of men's team badminton."
+},
+
+{
+question:"The Academy Awards are popularly known as:",
+options:[
+"Oscars",
+"Emmys",
+"Grammys",
+"Tonys"
+],
+answer:0,
+explanation:"The Academy Awards, presented by the Academy of Motion Picture Arts and Sciences, are popularly called Oscars."
+},
+
+{
+question:"The Academy Awards are mainly related to:",
+options:[
+"Cinema",
+"Sports",
+"Literature",
+"Politics"
+],
+answer:0,
+explanation:"Academy Awards recognize excellence in the film industry."
+},
+
+{
+question:"The Golden Globe Awards are associated with:",
+options:[
+"Film and television",
+"Sports",
+"Environment",
+"Architecture"
+],
+answer:0,
+explanation:"Golden Globe Awards honor achievements in motion pictures and television."
+},
+
+{
+question:"BAFTA Awards are presented by the:",
+options:[
+"British Academy of Film and Television Arts",
+"British Parliament",
+"European Union",
+"UNESCO"
+],
+answer:0,
+explanation:"BAFTA stands for British Academy of Film and Television Arts."
+},
+
+{
+question:"The Cannes Film Festival is held in:",
+options:[
+"France",
+"USA",
+"Italy",
+"Germany"
+],
+answer:0,
+explanation:"Cannes Film Festival is one of the world's most prestigious film festivals held in France."
+},
+
+{
+question:"The Palme d'Or is the highest award of:",
+options:[
+"Cannes Film Festival",
+"Oscars",
+"Golden Globes",
+"BAFTA"
+],
+answer:0,
+explanation:"Palme d'Or is the highest prize awarded at the Cannes Film Festival."
+},
+
+{
+question:"The Dadasaheb Phalke Award is India's highest award in the field of:",
+options:[
+"Cinema",
+"Sports",
+"Literature",
+"Science"
+],
+answer:0,
+explanation:"Dadasaheb Phalke Award is India's highest honour in cinema."
+},
+
+{
+question:"The National Film Awards in India are given by:",
+options:[
+"Government of India",
+"FIFA",
+"UNESCO",
+"IOC"
+],
+answer:0,
+explanation:"National Film Awards are presented by the Government of India."
+},
+
+{
+question:"The Goldman Environmental Prize is popularly known as:",
+options:[
+"Green Nobel Prize",
+"Water Nobel Prize",
+"Climate Oscar",
+"Earth Medal"
+],
+answer:0,
+explanation:"Goldman Environmental Prize is often called the Green Nobel Prize for environmental activism."
+},
+
+{
+question:"The Goldman Environmental Prize recognizes:",
+options:[
+"Grassroots environmental activists",
+"Movie directors",
+"Athletes",
+"Scientists only"
+],
+answer:0,
+explanation:"It honors individuals working for environmental protection through grassroots efforts."
+},
+
+{
+question:"Champions of the Earth Award is given by:",
+options:[
+"UN Environment Programme",
+"World Bank",
+"IMF",
+"WHO"
+],
+answer:0,
+explanation:"UNEP gives Champions of the Earth Award for outstanding environmental achievements."
+},
+
+{
+question:"The Earthshot Prize focuses mainly on:",
+options:[
+"Environmental solutions",
+"Sports excellence",
+"Cinema awards",
+"Military achievements"
+],
+answer:0,
+explanation:"Earthshot Prize supports innovative solutions to major environmental challenges."
+},
+
+{
+question:"Ramsar Convention is related to:",
+options:[
+"Wetlands",
+"Forests",
+"Mountains",
+"Deserts"
+],
+answer:0,
+explanation:"Ramsar Convention focuses on conservation and wise use of wetlands."
+},
+
+{
+question:"The headquarters of UNEP is located in:",
+options:[
+"Nairobi",
+"Paris",
+"New York",
+"Geneva"
+],
+answer:0,
+explanation:"UN Environment Programme headquarters is located in Nairobi, Kenya."
+},
+
+{
+question:"The Constitution of India was adopted on:",
+options:[
+"26 November 1949",
+"15 August 1947",
+"26 January 1950",
+"9 December 1946"
+],
+answer:0,
+explanation:"The Constituent Assembly adopted the Constitution on 26 November 1949."
+},
+
+{
+question:"The Constitution of India came into force on:",
+options:[
+"26 January 1950",
+"15 August 1947",
+"26 November 1949",
+"2 October 1950"
+],
+answer:0,
+explanation:"The Constitution came into effect on 26 January 1950."
+},
+
+{
+question:"The Fundamental Rights in the Indian Constitution are mentioned in:",
+options:[
+"Part III",
+"Part IV",
+"Part V",
+"Part VI"
+],
+answer:0,
+explanation:"Fundamental Rights are provided under Part III of the Constitution."
+},
+
+{
+question:"Directive Principles of State Policy are included in:",
+options:[
+"Part IV",
+"Part III",
+"Part II",
+"Part VI"
+],
+answer:0,
+explanation:"DPSP are mentioned in Part IV of the Constitution."
+},
+
+{
+question:"The President of India is elected by:",
+options:[
+"Electoral College",
+"Direct voting by citizens",
+"Prime Minister",
+"Supreme Court"
+],
+answer:0,
+explanation:"The President is elected by an Electoral College consisting of elected representatives."
+},
+
+{
+question:"The real executive power in India is exercised by:",
+options:[
+"Prime Minister and Council of Ministers",
+"President alone",
+"Chief Justice of India",
+"Governor"
+],
+answer:0,
+explanation:"The Prime Minister and Council of Ministers exercise real executive power."
+},
+
+{
+question:"The Supreme Court of India was established in:",
+options:[
+"1950",
+"1947",
+"1952",
+"1960"
+],
+answer:0,
+explanation:"The Supreme Court came into existence on 28 January 1950."
+},
+
+{
+question:"The guardian of the Constitution of India is:",
+options:[
+"Supreme Court",
+"Parliament",
+"President",
+"Election Commission"
+],
+answer:0,
+explanation:"The Supreme Court protects and interprets the Constitution."
+},
+
+{
+question:"The first President of India was:",
+options:[
+"Dr Rajendra Prasad",
+"Jawaharlal Nehru",
+"Dr S Radhakrishnan",
+"Sardar Patel"
+],
+answer:0,
+explanation:"Dr Rajendra Prasad was the first President of India."
+},
+
+{
+question:"The Quit India Movement was launched in:",
+options:[
+"1942",
+"1930",
+"1947",
+"1920"
+],
+answer:0,
+explanation:"Quit India Movement was launched by Mahatma Gandhi in August 1942."
+},
+
+{
+question:"The Indian National Congress was founded in:",
+options:[
+"1885",
+"1905",
+"1919",
+"1942"
+],
+answer:0,
+explanation:"Indian National Congress was founded in 1885."
+},
+
+{
+question:"The Revolt of 1857 started from:",
+options:[
+"Meerut",
+"Delhi",
+"Kanpur",
+"Lucknow"
+],
+answer:0,
+explanation:"The Revolt of 1857 began at Meerut."
+},
+
+{
+question:"The Government of India Act 1935 introduced:",
+options:[
+"Provincial autonomy",
+"Complete independence",
+"Fundamental Rights",
+"President system"
+],
+answer:0,
+explanation:"The Act of 1935 introduced provincial autonomy in British India."
+},
+
+{
+question:"The Preamble of the Indian Constitution begins with:",
+options:[
+"We, the People of India",
+"India is a Republic",
+"Justice for all",
+"Unity and Integrity"
+],
+answer:0,
+explanation:"The Preamble begins with 'We, the People of India'."
+},
+
+{
+question:"The number of Fundamental Duties mentioned in the Indian Constitution is:",
+options:[
+"11",
+"10",
+"12",
+"9"
+],
+answer:0,
+explanation:"There are 11 Fundamental Duties mentioned in Article 51A."
+},
+
+{
+question:"The Election Commission of India is mentioned in:",
+options:[
+"Article 324",
+"Article 356",
+"Article 370",
+"Article 280"
+],
+answer:0,
+explanation:"Article 324 provides for the Election Commission of India."
+},
+
+{
+question:"The Finance Commission is mentioned under:",
+options:[
+"Article 280",
+"Article 324",
+"Article 352",
+"Article 368"
+],
+answer:0,
+explanation:"Article 280 provides for the Finance Commission."
+},
+
+{
+question:"The Parliament of India consists of:",
+options:[
+"President, Lok Sabha and Rajya Sabha",
+"Prime Minister and Lok Sabha",
+"Supreme Court and Lok Sabha",
+"President and Supreme Court"
+],
+answer:0,
+explanation:"The Parliament consists of the President and two Houses: Lok Sabha and Rajya Sabha."
+},
+
+{
+question:"Money Bill can be introduced only in:",
+options:[
+"Lok Sabha",
+"Rajya Sabha",
+"Supreme Court",
+"State Assembly only"
+],
+answer:0,
+explanation:"Money Bills can only be introduced in Lok Sabha."
+},
+
+{
+question:"The Anti-Defection Law is included in:",
+options:[
+"Tenth Schedule",
+"Fifth Schedule",
+"Seventh Schedule",
+"Ninth Schedule"
+],
+answer:0,
+explanation:"Anti-Defection provisions are contained in the Tenth Schedule."
+},
+
+{
+question:"The Chairman of Rajya Sabha is:",
+options:[
+"Vice President of India",
+"President",
+"Prime Minister",
+"Speaker"
+],
+answer:0,
+explanation:"The Vice President serves as the ex-officio Chairman of Rajya Sabha."
+},
+
+{
+question:"The maximum strength of Lok Sabha as per Constitution is:",
+options:[
+"552",
+"545",
+"500",
+"600"
+],
+answer:0,
+explanation:"The Constitution provides a maximum strength of 552 members for Lok Sabha."
+},
+
+{
+question:"The Right to Constitutional Remedies is provided under:",
+options:[
+"Article 32",
+"Article 21",
+"Article 19",
+"Article 14"
+],
+answer:0,
+explanation:"Article 32 provides the Right to Constitutional Remedies."
 }
   ];
